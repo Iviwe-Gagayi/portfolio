@@ -10,6 +10,8 @@ import { SunIcon, MoonIcon } from '@heroicons/react/24/solid';
 
 
 
+
+
 function Header(){
 
   const [darkMode, setDarkMode] = useState(false);
@@ -37,7 +39,6 @@ function Header(){
     
  <nav className="bg-white/80 backdrop-blur-md p-4 fixed w-full top-0 z-50">
       <div className="w-full flex justify-between items-center">
-        {/* Logo / Brand */}
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 text-2xl font-bold px-2 ">
           Portfolio
         </div>
