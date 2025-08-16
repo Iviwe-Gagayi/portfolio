@@ -28,9 +28,19 @@ function Home() {
         <button className="font-semibold bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-md px-6 py-3">
           View My Work
         </button>
-        <button className="font-semibold shadow-md bg-gray-50 text-black rounded-md px-6 py-3">
-          Get In Touch
-        </button>
+            <button
+  className="relative font-semibold shadow-md text-black px-6 py-3 duration-2000 rounded-full"
+  style={{
+    border: "2px solid transparent",
+    borderRadius: "7px",
+    background:
+      "linear-gradient(white, white) padding-box, linear-gradient(to right, orange, red) border-box",
+  }}
+>
+  <span className="relative z-10 hover:bg-gradient-to-r hover:from-orange-400 hover:to-red-500 hover:bg-clip-text hover:text-transparent">
+    Get In Touch
+  </span>
+</button>
       </div>
 
       <div className="flex gap-4 relative z-10">
