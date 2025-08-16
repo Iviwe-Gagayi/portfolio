@@ -17,7 +17,7 @@ function Home() {
 
       <div className="relative z-10 text-center">
         <h2 className="text-2xl font-bold text-black">
-          Full-stack developer building web applications with React,
+          Full-stack developer, building web applications with React,
         </h2>
         <h3 className="text-2xl font-bold text-black">
           Node.js, and modern technologies.
