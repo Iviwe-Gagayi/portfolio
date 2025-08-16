@@ -6,7 +6,7 @@ import LavaBlobs from './LavaBlobs';
 function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-white gap-5 overflow-hidden">
-      <LavaBlobs count={6} />
+      <LavaBlobs count={5} />
 
       <h1 className="text-7xl font-bold relative z-10">
         Hi, I'm{" "}
