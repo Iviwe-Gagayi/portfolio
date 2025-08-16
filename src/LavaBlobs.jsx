@@ -39,7 +39,7 @@ export default function LavaBlobs({ count = 10 }) {
         @keyframes floatUp {
           0% {
             transform: translateY(0);
-            opacity: .5;
+            opacity: 1;
           }
           30% {
             opacity: 0;
