@@ -42,12 +42,12 @@ function About() {
             Frontend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            {["React", "Next.js", "Tailwind CSS", "Bootstrap", "Charts.js", "react-router-dom", "D3", "Recharts"].map((tech) => (
+            {["React", "Next.js",  "Bootstrap", "Charts.js", "D3", "Recharts","Tailwind CSS"].map((tech) => (
               <h4
                 key={tech}
                 className="flex items-center justify-center 
                            text-orange-600 font-bold text-sm md:text-lg 
-                           bg-orange-100 px-4 py-2 rounded-full text-center leading-normal"
+                           bg-orange-100 px-4 py-2 rounded-xl text-center leading-normal"
               >
                 {tech}
               </h4>
@@ -69,12 +69,12 @@ function About() {
             Backend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            {["Node.js", "Python", "MongoDB", "Firebase Auth", "PostgreSQL", "Recharts"].map((tech) => (
+            {["Node.js", "Python", "MongoDB", "Firebase", "PostgreSQL", "Recharts"].map((tech) => (
               <h4
                 key={tech}
                 className="flex items-center justify-center 
                            text-orange-600 font-bold text-sm md:text-lg 
-                           bg-orange-100 px-4 py-2 rounded-full text-center leading-normal"
+                           bg-orange-100 px-4 py-2 rounded-xl text-center leading-normal"
               >
                 {tech}
               </h4>
@@ -101,7 +101,7 @@ function About() {
                 key={tech}
                 className="flex items-center justify-center 
                            text-orange-600 font-bold text-sm md:text-lg 
-                           bg-orange-100 px-4 py-2 rounded-full text-center leading-normal"
+                           bg-orange-100 px-4 py-2 rounded-xl text-center leading-normal"
               >
                 {tech}
               </h4>
