@@ -26,7 +26,7 @@ function About() {
       </div>
 
       {/* Skills Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-1">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-1">
 
         {/* Frontend */}
         <div
