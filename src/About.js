@@ -5,7 +5,7 @@ import { CiGlobe } from "react-icons/ci";
 
 function About() {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-8 overflow-hidden p-8">
+    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8">
 
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
@@ -26,7 +26,7 @@ function About() {
       </div>
 
       {/* Skills Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-1">
 
         {/* Frontend */}
         <div
