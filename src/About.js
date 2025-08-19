@@ -96,7 +96,7 @@ function About() {
             DevOps & Tools
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            {["Docker", "Git", "AWS", "Heroku", "Firebase"].map((tech) => (
+            {["Docker", "Git", "AWS", "Heroku", "Firebase","Vercel"].map((tech) => (
               <h4
                 key={tech}
                 className="flex items-center justify-center 
