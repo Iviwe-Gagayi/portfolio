@@ -39,15 +39,7 @@ function Projects() {
         </span>
       </h1>
 
-      {/* Subtitle */}
-      <div className="text-center">
-        <h2 className="text-black text-xl font-bold">
-          Projects built using React, Node.js, Python
-        </h2>
-        <h3 className="text-black text-xl font-bold">
-          and other technologies I work with.
-        </h3>
-      </div>
+
 
       {/* Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-5 md:px-20">
