@@ -78,14 +78,16 @@ function Projects() {
               {/* Buttons */}
               <div className="flex gap-4 mt-4">
                 {/* Live Demo - rectangular gradient */}
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 text-center font-bold py-2 px-4 rounded bg-gradient-to-r from-orange-400 to-red-500 text-white hover:from-red-500 hover:to-orange-400 transition-colors"
-                >
-                  Live Demo
-                </a>
+               <a
+  href={project.live}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative flex-1 text-center font-bold py-2 px-4 rounded overflow-hidden"
+>
+  <span className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 transition-opacity duration-300 opacity-100 hover:opacity-0"></span>
+  <span className="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-400 opacity-0 hover:opacity-100 transition-opacity duration-300"></span>
+  <span className="relative text-white">Live Demo</span>
+              </a>
 
                 {/* GitHub - small square grey */}
                 <a
