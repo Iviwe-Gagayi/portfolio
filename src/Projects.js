@@ -92,9 +92,9 @@ function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 flex items-center justify-center bg-gray-800 text-white rounded transition-colors hover:bg-gray-900"
+                 
                 >
-                  <FaGithub/>
+                  <FaGithub  className="w-11 h-11 flex items-center justify-center bg-white text-gray-800 rounded transition-colors hover:text-gray-900 duration-300"/>
                 </a>
               </div>
             </div>
