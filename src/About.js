@@ -5,7 +5,7 @@ import { CiGlobe } from "react-icons/ci";
 
 function About() {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8">
+    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 h-">
 
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
@@ -69,7 +69,7 @@ function About() {
             Backend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            {["Node.js", "Python", "MongoDB", "Firebase", "PostgreSQL", "Recharts"].map((tech) => (
+            {["Node.js", "Python", "MongoDB", "Firebase", "PostgreSQL", "Recharts", "Flask", "FastAPI"].map((tech) => (
               <h4
                 key={tech}
                 className="flex items-center justify-center 
