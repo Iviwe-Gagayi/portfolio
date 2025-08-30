@@ -6,7 +6,7 @@ const projectData = [
     title: "Task Manager App",
     description: "A fullstack app to manage tasks with authentication and CRUD features.",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
-    image: "/images/task-manager.png",
+    image: "/images/coming_soon.jpeg",
     live: "https://your-task-manager-demo.com",
     github: "https://github.com/yourusername/task-manager"
   },
@@ -14,7 +14,7 @@ const projectData = [
     title: "Firebase Chat App",
     description: "Real-time chat application using Firebase Auth and Firestore.",
     tech: ["React", "Firebase", "Tailwind CSS"],
-    image: "/images/firebase-chat.png",
+    image: "/images/coming_soon.jpeg",
     live: "https://your-chat-app-demo.com",
     github: "https://github.com/yourusername/firebase-chat"
   },
@@ -22,7 +22,7 @@ const projectData = [
     title: "Data Dashboard",
     description: "Dashboard displaying charts and tables with interactive filtering.",
     tech: ["React", "Chart.js", "FastAPI", "PostgreSQL"],
-    image: "/images/data-dashboard.png",
+    image: "/images/coming_soon.jpeg",
     live: "https://your-dashboard-demo.com",
     github: "https://github.com/yourusername/data-dashboard"
   }
