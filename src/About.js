@@ -5,7 +5,7 @@ import { CiGlobe } from "react-icons/ci";
 
 function About() {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 h-">
+    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 ">
 
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
