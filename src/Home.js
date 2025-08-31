@@ -9,7 +9,7 @@ const Home = forwardRef((props, ref) => {
     <div ref={ref} className="relative flex flex-col items-center justify-center h-screen bg-white gap-5 overflow-hidden">
       <LavaBlobs count={5} />
 
-      <h1 className="text-7xl font-bold relative z-10">
+      <h1 className="text-7xl font-bold relative z-10 text-center">
         Hi, I'm{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">
           Iviwe

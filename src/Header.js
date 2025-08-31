@@ -28,7 +28,7 @@ function Header({ scrollToSection, refs }) {
         </button>
 
         {/* Navigation Buttons */}
-        <div className="flex gap-4">
+        <div className="flex gap-4 hidden md:flex gap-4">
           <button
             onClick={() => scrollToSection(refs.homeRef)}
             className="text-gray-700 px-2 py-2 hover:text-orange-500 transition duration-300"
