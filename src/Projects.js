@@ -24,7 +24,7 @@ const projectData = [
     title: "Data Dashboard",
     description: "Dashboard displaying charts and tables with interactive filtering.",
     tech: ["React", "Chart.js", "FastAPI", "PostgreSQL"],
-    image: "/images/comingsoon.jpeg",
+    image: "/images/coming_soon.jpeg",
     live: "https://your-dashboard-demo.com",
     github: "https://github.com/yourusername/data-dashboard"
   }

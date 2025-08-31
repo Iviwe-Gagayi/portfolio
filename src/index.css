@@ -4,3 +4,10 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --btn-bg: white;
+}
+
+.dark {
+  --btn-bg: black;
+}
