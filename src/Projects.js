@@ -32,9 +32,9 @@ const projectData = [
 
 const Projects = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="w-full bg-white flex flex-col justify-center py-10 gap-10">
+    <div ref={ref} className="w-full bg-white flex flex-col justify-center py-10 gap-10 dark:bg-black duration-300">
       {/* Title */}
-      <h1 className="text-black text-6xl font-bold text-center">
+      <h1 className="text-black text-6xl font-bold text-center dark:text-white">
         Featured{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">
           Projects
@@ -48,7 +48,7 @@ const Projects = forwardRef((props, ref) => {
         {projectData.map((project) => (
           <div
             key={project.title}
-            className="flex flex-col bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl"
+            className="flex flex-col bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl dark:bg-dark3"
           >
             <img
               src={project.image}
@@ -56,8 +56,8 @@ const Projects = forwardRef((props, ref) => {
               className="w-full h-48 object-cover"
             />
             <div className="p-6 flex flex-col gap-4">
-              <h3 className="text-2xl font-bold text-black">{project.title}</h3>
-              <p className="text-gray-700">{project.description}</p>
+              <h3 className="text-2xl font-bold text-black dark:text-white">{project.title}</h3>
+              <p className="text-gray-700 dark:text-white">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
                   <span
@@ -90,7 +90,7 @@ const Projects = forwardRef((props, ref) => {
                   rel="noopener noreferrer"
                  
                 >
-                  <FaGithub  className="w-11 h-11 flex items-center justify-center bg-white text-gray-800 rounded transition-colors hover:text-gray-900 duration-300"/>
+                  <FaGithub  className="w-11 h-11 flex items-center justify-center bg-white text-gray-800 rounded transition-colors hover:text-gray-900 duration-300 dark:bg-dark3 dark:text-white dark:hover:text-red-500 duration-300"/>
                 </a>
               </div>
             </div>

@@ -45,7 +45,7 @@ function Header({ scrollToSection, refs, darkMode, setDarkMode }) {
             className="p-1"
           >
             {darkMode ? (
-              <MoonIcon className="h-6 w-6 text-gray-700 dark:text-gray-200 dark:hover:text-purple-400 transition-colors duration-300" />
+              <MoonIcon className="h-6 w-6 text-gray-700 dark:text-gray-200 dark:hover:text-orange-500 transition-colors duration-300" />
             
             ) : (
                <SunIcon className="h-6 w-6 text-orange-500 hover:text-orange-700 transition-colors duration-300" />

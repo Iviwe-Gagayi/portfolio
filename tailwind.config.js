@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark1: "#0d0d0d", // almost black, softer than pure black
-        dark2: "#121212", // popular "modern black" (Spotify uses this)
-        dark3: "#181818", // still dark, slight contrast
+        dark1: "#0d0d0d", 
+        dark2: "#121212", 
+        dark3: "#181818", 
       },
     },
   },

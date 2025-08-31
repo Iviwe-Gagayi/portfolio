@@ -8,10 +8,10 @@ import  { forwardRef } from "react";
 
 const About = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 ">
+    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8  dark:bg-dark1 duration-300">
 
       {/* Title */}
-      <h1 className="text-black text-6xl font-bold text-center">
+      <h1 className="text-black text-6xl font-bold text-center dark:text-white">
         About{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">
           Me
@@ -19,11 +19,11 @@ const About = forwardRef((props, ref) => {
       </h1>
 
       {/* Subtitle */}
-      <div className="text-center">
-        <h2 className="text-black text-xl font-bold">
+      <div className="text-center ">
+        <h2 className="text-black text-xl font-bold dark:text-white">
           Full-stack developer with 3+ years of experience building scalable web
         </h2>
-        <h3 className="text-black text-xl font-bold">
+        <h3 className="text-black text-xl font-bold dark:text-white">
           applications using modern technologies and frameworks.
         </h3>
       </div>
@@ -33,15 +33,17 @@ const About = forwardRef((props, ref) => {
 
         {/* Frontend */}
         <div
-          className="flex flex-col w-100 h-auto bg-white rounded-xl p-8 items-center gap-4 
-          border-2 border-transparent shadow-md transition-transform transform hover:scale-105 hover:shadow-xl"
-          style={{
-            background:
-              "linear-gradient(white, white) padding-box, linear-gradient(to right, red, orange) border-box",
-          }}
+        className="
+    flex flex-col w-full h-auto rounded-xl p-8 items-center gap-4
+    border-2 border-transparent shadow-md transition-transform transform
+    hover:scale-105 hover:shadow-xl
+    text-black dark:text-white
+    [background:linear-gradient(white,white)_padding-box,linear-gradient(to_right,red,orange)_border-box]
+    dark:[background:linear-gradient(theme(colors.dark3),theme(colors.dark3))_padding-box,linear-gradient(to_right,red,orange)_border-box]
+  "
         >
           <CiGlobe className="h-12 w-12 text-orange-400" />
-          <h2 className="font-bold text-black text-2xl text-center">
+          <h2 className="font-bold text-black text-2xl text-center dark:text-white">
             Frontend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
@@ -60,15 +62,17 @@ const About = forwardRef((props, ref) => {
 
         {/* Backend */}
         <div
-          className="flex flex-col w-100 h-auto bg-white rounded-xl p-8 items-center gap-4 
-          border-2 border-transparent shadow-md transition-transform transform hover:scale-105 hover:shadow-xl"
-          style={{
-            background:
-              "linear-gradient(white, white) padding-box, linear-gradient(to right, orange, orange) border-box",
-          }}
+            className="
+    flex flex-col w-full h-auto rounded-xl p-8 items-center gap-4
+    border-2 border-transparent shadow-md transition-transform transform
+    hover:scale-105 hover:shadow-xl
+    text-black dark:text-white
+    [background:linear-gradient(white,white)_padding-box,linear-gradient(to_right,orange,orange)_border-box]
+    dark:[background:linear-gradient(theme(colors.dark3),theme(colors.dark3))_padding-box,linear-gradient(to_right,orange,orange)_border-box]
+  "
         >
           <TfiServer className="h-12 w-12 text-orange-400" />
-          <h2 className="font-bold text-black text-2xl text-center">
+          <h2 className="font-bold text-black text-2xl text-center dark:text-white">
             Backend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
@@ -87,15 +91,17 @@ const About = forwardRef((props, ref) => {
 
         {/* DevOps & Tools */}
         <div
-          className="flex flex-col w-100 h-auto bg-white rounded-xl p-8 items-center gap-4 
-          border-2 border-transparent shadow-md transition-transform transform hover:scale-105 hover:shadow-xl"
-          style={{
-            background:
-              "linear-gradient(white, white) padding-box, linear-gradient(to right, orange, red) border-box",
-          }}
+             className="
+    flex flex-col w-full h-auto rounded-xl p-8 items-center gap-4
+    border-2 border-transparent shadow-md transition-transform transform
+    hover:scale-105 hover:shadow-xl
+    text-black dark:text-white
+    [background:linear-gradient(white,white)_padding-box,linear-gradient(to_right,orange,red)_border-box]
+    dark:[background:linear-gradient(theme(colors.dark3),theme(colors.dark3))_padding-box,linear-gradient(to_right,orange,red)_border-box]
+  "
         >
           <IoCodeSharp className="h-12 w-12 text-orange-400" />
-          <h2 className="font-bold text-black text-2xl text-center">
+          <h2 className="font-bold text-black text-2xl text-center dark:text-white">
             DevOps & Tools
           </h2>
           <div className="grid grid-cols-3 gap-3">
