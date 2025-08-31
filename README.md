@@ -1,4 +1,4 @@
-# Ivi Wegagayi – Portfolio
+# Iviwe Gagayi – Portfolio
 
 A personal portfolio website built with **React** and **Tailwind CSS** showcasing my projects, skills, and contact information. The site is fully responsive, includes smooth scrolling navigation, and a dark mode toggle.
 
