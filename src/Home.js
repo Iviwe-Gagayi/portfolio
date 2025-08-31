@@ -2,10 +2,11 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import LavaBlobs from './LavaBlobs'; 
+import  { forwardRef } from "react";
 
-function Home() {
+const Home = forwardRef((props, ref) => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-white gap-5 overflow-hidden">
+    <div ref={ref} className="relative flex flex-col items-center justify-center h-screen bg-white gap-5 overflow-hidden">
       <LavaBlobs count={5} />
 
       <h1 className="text-7xl font-bold relative z-10">
@@ -56,6 +57,6 @@ function Home() {
       </div>
     </div>
   );
-}
+});
 
 export default Home;

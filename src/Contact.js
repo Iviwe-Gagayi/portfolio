@@ -1,9 +1,12 @@
 import { EnvelopeIcon, PhoneIcon, MapPinIcon, LinkIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import  { forwardRef } from "react";
 
-function Contact() {
+
+
+const Contact = forwardRef((props, ref) => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-orange-500/5 p-8 gap-8">
+    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-500/5 p-8 gap-8">
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
         Let's{" "}
@@ -93,6 +96,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+});
 
 export default Contact;

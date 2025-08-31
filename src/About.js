@@ -2,10 +2,13 @@ import React from 'react';
 import { TfiServer } from "react-icons/tfi";
 import { IoCodeSharp } from "react-icons/io5";
 import { CiGlobe } from "react-icons/ci";
+import  { forwardRef } from "react";
 
-function About() {
+
+
+const About = forwardRef((props, ref) => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 ">
+    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-50 gap-5 overflow-hidden p-8 ">
 
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
@@ -111,6 +114,6 @@ function About() {
       </div>
     </div>
   );
-}
+});
 
 export default About;

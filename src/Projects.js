@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import  { forwardRef } from "react";
+
 
 const projectData = [
   {
@@ -22,15 +24,15 @@ const projectData = [
     title: "Data Dashboard",
     description: "Dashboard displaying charts and tables with interactive filtering.",
     tech: ["React", "Chart.js", "FastAPI", "PostgreSQL"],
-    image: "/images/coming_soon.jpeg",
+    image: "/images/comingsoon.jpeg",
     live: "https://your-dashboard-demo.com",
     github: "https://github.com/yourusername/data-dashboard"
   }
 ];
 
-function Projects() {
+const Projects = forwardRef((props, ref) => {
   return (
-    <div className="w-full bg-white flex flex-col justify-center py-10 gap-10">
+    <div ref={ref} className="w-full bg-white flex flex-col justify-center py-10 gap-10">
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center">
         Featured{" "}
@@ -97,6 +99,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+});
 
 export default Projects;
