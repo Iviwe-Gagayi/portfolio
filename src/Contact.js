@@ -6,7 +6,7 @@ import  { forwardRef } from "react";
 
 const Contact = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-500/5 p-8 gap-8 dark:bg-dark1 duration-300">
+    <div ref={ref} className="w-full flex flex-col items-center justify-center bg-orange-500/5 p-8 gap-8 dark:bg-black duration-300">
       {/* Title */}
       <h1 className="text-black text-6xl font-bold text-center dark:text-white">
         Let's{" "}
