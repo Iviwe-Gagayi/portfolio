@@ -76,7 +76,7 @@ const About = forwardRef((props, ref) => {
             Backend Development
           </h2>
           <div className="grid grid-cols-3 gap-3">
-            {["Node.js", "Python", "MongoDB", "Firebase", "PostgreSQL", "Recharts", "Flask", "FastAPI"].map((tech) => (
+            {["Node.js", "Python", "MongoDB", "Firebase", "PostgreSQL","C++", "Recharts", "Flask", "FastAPI"].map((tech) => (
               <h4
                 key={tech}
                 className="flex items-center justify-center 
