@@ -44,7 +44,7 @@ function App() {
         />
 
         {/* Sections */}
-        <Home ref={homeRef} />
+       <Home ref={homeRef} scrollToSection={scrollToSection} projectsRef={projectsRef} />
         <About ref={aboutRef} />
         <Projects ref={projectsRef} />
         <Contact ref={contactRef} />

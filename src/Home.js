@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import LavaBlobs from './LavaBlobs'; 
 import  { forwardRef } from "react";
 
-const Home = forwardRef((props, ref) => {
+const Home = forwardRef(({ scrollToSection, projectsRef }, ref) => {
   return (
     <div ref={ref} className="relative flex flex-col items-center justify-center h-screen bg-white gap-5 overflow-hidden dark:bg-black duration-300">
       <LavaBlobs count={5} />
@@ -26,7 +26,10 @@ const Home = forwardRef((props, ref) => {
       </div>
 
       <div className="flex gap-4 relative z-10">
-        <button className="font-semibold bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-md px-6 py-3">
+        <button 
+        onClick={() => scrollToSection(projectsRef)}
+        className="font-semibold bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-md px-6 py-3 
+             transform transition-transform duration-300 hover:scale-110">
           View My Work
         </button>
    
