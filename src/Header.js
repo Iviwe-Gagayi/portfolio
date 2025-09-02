@@ -13,28 +13,28 @@ function Header({ scrollToSection, refs, darkMode, setDarkMode }) {
         </button>
 
         {/* Navigation */}
-        <div className="flex items-center gap-4 hidden md:flex">
+        <div className="flex items-center gap-4">
           <button
             onClick={() => scrollToSection(refs.homeRef)}
-            className="px-2 py-2 text-gray-700 dark:text-white hover:text-orange-500 dark:hover:text-orange-500 transition duration-300"
+            className=" hidden md:block px-2 py-2 text-gray-700 dark:text-white hover:text-orange-500 dark:hover:text-orange-500 transition duration-300"
           >
             Home
           </button>
           <button
             onClick={() => scrollToSection(refs.aboutRef)}
-            className="px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
+            className=" hidden md:block  px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
           >
             About
           </button>
           <button
             onClick={() => scrollToSection(refs.projectsRef)}
-            className="px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
+            className=" hidden md:block  px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
           >
             Projects
           </button>
           <button
             onClick={() => scrollToSection(refs.contactRef)}
-            className="px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
+            className=" hidden md:block  px-2 py-2 text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition duration-300"
           >
             Contact
           </button>
